@@ -63,6 +63,7 @@ delay=(delay in ms between purchase attempts you will want this at least 3000 pe
 Once you have all the ini files setup you simply launch BuyDemo.exe and pass a parameter of the number of settings to open.
 
 Then double click and away you go.  
+Also worth noting on the main_settings.ini there is a demo field.  If set to True then it will not post anything.
 
 
 
