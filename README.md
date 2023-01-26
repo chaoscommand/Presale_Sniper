@@ -1,16 +1,20 @@
 # Presale_Sniper
 
-This program is intended for educational purposes only.  I am not responsible in any way for its use or misuse.
-I have not used this in any meaningful way nor do I intend to and you shouldn't either.
+### This program is intended for educational purposes only. 
 
-It is a fully functional sniper program for hive blockchain custom_json posts.  It can use active or posting keys.
-This program represents about 10 hours worth of programming time.  It is not complex by any means.
+## SPLINTERLANDS IS CHANGING THE WAY PRESALES WORK SO THIS METHOD WILL NOT WORK MOVING FORWARD.
+
+I am not responsible in any way for its use or misuse.
+
+It is a sniper program for hive blockchain custom_json posts.  
+It can use active or posting keys.
+This program represents about 10 hours worth of programming time.  
+It is not complex by any means.
 
 I have been campaigning for awhile for change and presale botting has gotten worse and worse.
-I could keep quiet and make thousands of dollars, but that isn't my style.
-I am going to share how to exploit the current presale system.
-The sole purpose of this is to force splinterlands to fix their system.
-I didn't want to go this far, but with the Lux sale (and others before it) it is clear others are already taking advantage.  
+Thankfully I have been told by the team that this method will no longer be effective.
+As such I am posting this code for people to learn from.  For those curious I never used this program except to test it 
+(I bought 1 TD pack which I gave away)
 
 This program has the potential to post lots and lots of transactions. 
 Okay enough talk 
@@ -24,6 +28,7 @@ the purchase code the number of attempts per account and the datetime to try (ba
 
 Datetime= (This is the datetime on your machine that the code will execute the purchases)
 attempts= (This is the number of attempts it will make with each account you can do between 1 and 5 attempts per account)
+demo= (True or False if True then it will not post to the hive blockchain at all)
 active= (True or False if True then use active keys in settings if false then use posting keys)
 custom_id= (this is the id on the blockchain for presales it is usually sm_shop_purchase or sm_purchase but it depends)
 custom_json (this is the json that gets posted see below)
@@ -62,8 +67,8 @@ delay=(delay in ms between purchase attempts you will want this at least 3000 pe
 
 Once you have all the ini files setup you simply launch BuyDemo.exe and pass a parameter of the number of settings to open.
 
-Then double click and away you go.  
-Also worth noting on the main_settings.ini there is a demo field.  If set to True then it will not post anything.
+Then double click and away you go (doing nothing because this wont work anymore).  
+
 
 
 
